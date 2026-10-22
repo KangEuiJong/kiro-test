@@ -1,0 +1,22 @@
+# 환경변수 (절대 올리면 안됨)
+backend/.env
+frontend/.env
+
+# 의존성
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# 빌드 결과물
+frontend/dist/
+
+# 키 파일
+*.pem
+
+# 로그
+*.log
+npm-debug.log*
+
+# OS 파일
+.DS_Store
+Thumbs.db
